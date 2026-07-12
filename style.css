@@ -138,3 +138,52 @@ footer{
     color:#E8A7B5;
 
 }
+/* Bouton mode sombre */
+.dark-toggle{
+    background:none;
+    border:none;
+    font-size:24px;
+    cursor:pointer;
+    color:#4A3028;
+}
+
+/* Transition douce */
+body,
+.navbar,
+.card,
+footer{
+    transition:background 0.3s, color 0.3s;
+}
+
+/* MODE SOMBRE */
+body.dark{
+    background:#121212;
+    color:#F5F5F5;
+}
+
+body.dark .navbar{
+    background:#1E1E1E;
+    box-shadow:0 3px 15px rgba(255,255,255,0.05);
+}
+
+body.dark .menu a{
+    color:#F5F5F5;
+}
+
+body.dark .menu a:hover{
+    color:#E8A7B5;
+}
+
+body.dark .card{
+    background:#1E1E1E;
+    color:#F5F5F5;
+}
+
+body.dark footer{
+    background:#1A1A1A;
+    color:#F5F5F5;
+}
+
+body.dark .dark-toggle{
+    color:#F5F5F5;
+}
